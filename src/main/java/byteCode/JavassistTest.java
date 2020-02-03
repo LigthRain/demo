@@ -18,4 +18,5 @@ public class JavassistTest {
         cc.writeFile("/Users/wushuangxiaoyu/temp/demo/src/main/java/");
         Base h = (Base)c.newInstance();
         h.process();
-    } }
+    }
+}
