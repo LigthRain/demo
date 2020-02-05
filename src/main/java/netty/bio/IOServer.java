@@ -1,4 +1,4 @@
-package netty;
+package netty.bio;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,8 +20,8 @@ public class IOServer {
                             int len;
                             byte[] data = new byte[1024];
                             while ((len = inputStream.read(data)) != -1) {
-//                                System.out.println(new String(data, 0, len));
-                                System.out.println(data);
+                                System.out.println(new String(data, 0, len));
+//                                System.out.println(data);
                             }
                         } catch (IOException e) {
                             e.printStackTrace();
