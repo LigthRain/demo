@@ -23,4 +23,8 @@ public class FirstClientHandler extends ChannelInboundHandlerAdapter {
         return buffer;
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }
