@@ -28,6 +28,7 @@ public class FirstClientHandler extends ChannelInboundHandlerAdapter {
         int a1 = 1;
         int a2 = 2;
         int a3 = 3;
+        int a4 = 3;
     }
 
 }
